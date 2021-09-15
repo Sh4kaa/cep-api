@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+/* #id, #logradouro, #complemento, #bairro, #localidade, #uf,
+#ibge, #gia, #codarea, #siaf, label {
+  display: block;
+} */
+
+fieldset {
+  padding: 30px;
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;  
+  border-radius: 5px;
+  
+}
+input {
+  margin-top: 5px;
+  width: 250px;
+  margin: 0 auto;
+  height: 25px;
+  
+}
+
+label {
+  margin-top: 10px;
+}
+
+
+.form-cep {
+  margin-top: 20px;
+}
+
+input:focus{
+  outline: none;
+}
