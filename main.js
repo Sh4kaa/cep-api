@@ -5,7 +5,15 @@ const searchCep = async () => {
     const response = await request.json();
     preencherDados(response);
   } catch (error) {
-    document.getElementById("logradouro").value = "😥NÃO FOI POSSIVEL😥";
+    document.getElementById("complemento").value = "";
+    document.getElementById("bairro").value = "";
+    document.getElementById("localidade").value = "";
+    document.getElementById("uf").value = "";
+    document.getElementById("ibge").value = "";
+    document.getElementById("gia").value = "";
+    document.getElementById("codarea").value = "";
+    document.getElementById("siaf").value = "";
+    document.getElementById("logradouro").value = "😥NÃO FOI POSSIVEL😥";    
     return error;
   }
 };
