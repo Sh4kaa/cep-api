@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+
+
 /* #id, #logradouro, #complemento, #bairro, #localidade, #uf,
 #ibge, #gia, #codarea, #siaf, label {
   display: block;
@@ -16,8 +18,8 @@ fieldset {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background: Lime;
-  font-family: 'Nunito', sans-serif;
+  background: LawnGreen;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
 }
 input {
@@ -27,7 +29,7 @@ input {
   height: 25px;
   border-radius: 5px;
   border-width: 1px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-left: 10px;
   font-size: 1rem;
 }
@@ -44,4 +46,16 @@ input:focus {
   outline: none;
   border: DarkGreen 1px solid;
   box-shadow: 0px 0px 3px 1px DeepSkyBlue;
+}
+
+footer {    
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-family: 'Nunito', Courier, monospace;
+  
 }
